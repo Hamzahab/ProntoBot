@@ -1,0 +1,15 @@
+Q:need help
+ A:what device can i help you with today?
+Q:Accutor 3
+ A:I have information on this device. What seems to be the issue?
+Q:not turning on
+ A:I may be able to assist! Please see possible solutions below\n 1)Cause:AC mains not connected or battery too low\n Solution:Check that AC mains is properly connected to outlet or battery capacity is sufficient.\n 2)Cause:cable may be defective\n Solution:2.1. Check that the cable between the keypad board and main board is correctly connected.\n 2.2. Check that the cable between the power board and power management board is correctly connected.\n2.3. Check that the cable between the main board and power management board is correctly connected.\n 3)Cause:Power board may be defective\n Solution:Replace the power board.\n 4)Cause:Power management board may be defective\n Solution:Replace the power management board.\n 5)Cause:The main board failed\n Solution:Replace the main board.
+
+Q:Accutor 3
+ A:I have information on this device. What seems to be the issue?
+ Q:no power
+ A:I may be able to assist! Please see possible solutions below\n 1)Cause:AC mains not connected or battery too low\n Solution:Check that AC mains is properly connected to outlet or battery capacity is sufficient.\n 2)Cause:cable may be defective\n Solution:2.1. Check that the cable between the keypad board and main board is correctly connected.\n 2.2. Check that the cable between the power board and power management board is correctly connected.\n 2.3. Check that the cable between the main board and power management board is correctly connected.\n 3)Cause:Power board may be defective\n Solution:Replace the power board.\n 4)Cause:Power management board may be defective\n Solution:Replace the power management board.\n 5)Cause:The main board failed\n Solution:Replace the main board.
+
+Q:not starting up
+ A:I may be able to assist! Please see possible solutions below\n 1)Cause:AC mains not connected or battery too low\n Solution:Check that AC mains is properly connected to outlet or battery capacity is sufficient.\n 2)Cause:cable may be defective\n Solution:2.1. Check that the cable between the keypad board and main board is correctly connected.\n 2.2. Check that the cable between the power board and power management board is correctly connected.\n 2.3. Check that the cable between the main board and power management board is correctly connected.\n 3)Cause:Power board may be defective\n Solution:Replace the power board.\n 4)Cause:Power management board may be defective\n Solution:Replace the power management board.\n 5)Cause:The main board failed\n Solution:Replace the main board.
+

@@ -1,0 +1,339 @@
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: i may be able to assist! please see possible solutions below\n 1)cause:cable defective\n solution:1.1 check if the cable between the display and main board and the backlight cable are correctly connected.\n 1.2 check that the cables and connectors are not damaged\n 2)cause:main board defective\n solution:replace the main board.\n 3)cause:display defective\n solution:replace the display. 0.01
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "accutor 3" as a close match to "accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 5 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 5 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "accutor 3" as a response to "None"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: module isnt loading 1.0
+INFO:chatterbot.chatterbot:Using "module isnt loading" as a close match to "module isnt loading" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i may be able to assist. please try the following-> \n 1)cause:module defective\n solution:1.1 check that the cable between the external converter board inside the module and the\n converter board is correctly connected.\n 1.2 replace the converter board.\n 2)cause:main unit defective\n solution:2.1 check that the cable between the main board and power management board is correctly connected. \n 2.2 replace the power management board.\n 2.3 replace the main board. did that help?"
+INFO:chatterbot.chatterbot:BestMatch selected "i may be able to assist. please try the following-> \n 1)cause:module defective\n solution:1.1 check that the cable between the external converter board inside the module and the\n converter board is correctly connected.\n 1.2 replace the converter board.\n 2)cause:main unit defective\n solution:2.1 check that the cable between the main board and power management board is correctly connected. \n 2.2 replace the power management board.\n 2.3 replace the main board. did that help?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "module isnt loading" as a response to "accutor 3"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: module isnt loading 1.0
+INFO:chatterbot.chatterbot:Using "module isnt loading" as a close match to "module isnt loading" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i may be able to assist. please try the following-> \n 1)cause:module defective\n solution:1.1 check that the cable between the external converter board inside the module and the\n converter board is correctly connected.\n 1.2 replace the converter board.\n 2)cause:main unit defective\n solution:2.1 check that the cable between the main board and power management board is correctly connected. \n 2.2 replace the power management board.\n 2.3 replace the main board. "\n"did that help?"
+INFO:chatterbot.chatterbot:BestMatch selected "i may be able to assist. please try the following-> \n 1)cause:module defective\n solution:1.1 check that the cable between the external converter board inside the module and the\n converter board is correctly connected.\n 1.2 replace the converter board.\n 2)cause:main unit defective\n solution:2.1 check that the cable between the main board and power management board is correctly connected. \n 2.2 replace the power management board.\n 2.3 replace the main board. "\n"did that help?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "module isnt loading" as a response to "None"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: hello 1.0
+INFO:chatterbot.chatterbot:Using "hello" as a close match to "hello" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.chatterbot:Response selected. Using "hi"
+INFO:chatterbot.chatterbot:BestMatch selected "hi" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "hello" as a response to "None"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "need a bit of help" as a close match to "need a bit of help" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 99 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 99 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i'm sorry, but i don't have a response to your statement. please try another one"
+INFO:chatterbot.chatterbot:BestMatch selected "i'm sorry, but i don't have a response to your statement. please try another one" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "need a bit of help" as a response to "hello"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "need some help" as a close match to "need some help" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 99 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 99 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i'm sorry, but i don't have a response to your statement. please try another one"
+INFO:chatterbot.chatterbot:BestMatch selected "i'm sorry, but i don't have a response to your statement. please try another one" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "need some help" as a response to "need a bit of help"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: need help 1.0
+INFO:chatterbot.chatterbot:Using "need help" as a close match to "need help" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.chatterbot:Response selected. Using "what device can i help you with today?"
+INFO:chatterbot.chatterbot:BestMatch selected "what device can i help you with today?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "need help" as a response to "need some help"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: i may be able to assist! please see possible solutions below\n 1)cause:cable defective\n solution:1.1 check if the cable between the display and main board and the backlight cable are correctly connected.\n 1.2 check that the cables and connectors are not damaged\n 2)cause:main board defective\n solution:replace the main board.\n 3)cause:display defective\n solution:replace the display. 0.01
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "accutor 3" as a close match to "accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 5 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 5 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "accutor 3" as a response to "need help"
+INFO:werkzeug: * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 14:54:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 14:54:49] "[37mGET /static/styles/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 14:54:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: hi 1.0
+INFO:chatterbot.chatterbot:Using "hi" as a close match to "hi" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 7 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 7 options.
+INFO:chatterbot.chatterbot:Response selected. Using "hello"
+INFO:chatterbot.chatterbot:BestMatch selected "hello" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "hi" as a response to "None"
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 14:54:57] "[37mGET /get?msg=hi HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: need help 1.0
+INFO:chatterbot.chatterbot:Using "need help" as a close match to "need help" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 7 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 7 options.
+INFO:chatterbot.chatterbot:Response selected. Using "what device can i help you with today?"
+INFO:chatterbot.chatterbot:BestMatch selected "what device can i help you with today?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "need help" as a response to "hi"
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 14:55:01] "[37mGET /get?msg=need%20help HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 15:01:08] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 15:01:08] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 15:10:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 15:10:04] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 15:10:04] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 15:10:04] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 15:10:04] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 15:10:04] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 15:10:04] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 15:10:04] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 15:12:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 15:12:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 15:13:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 15:13:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 15:13:21] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 15:13:21] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: need help 1.0
+INFO:chatterbot.chatterbot:Using "need help" as a close match to "need help" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 4 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 4 options.
+INFO:chatterbot.chatterbot:Response selected. Using "what device can i help you with today?"
+INFO:chatterbot.chatterbot:BestMatch selected "what device can i help you with today?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "need help" as a response to "None"
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 15:13:25] "[37mGET /get?msg=need%20help HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: i may be able to assist! please see possible solutions below\n 1)cause:cable defective\n solution:1.1 check if the cable between the display and main board and the backlight cable are correctly connected.\n 1.2 check that the cables and connectors are not damaged\n 2)cause:main board defective\n solution:replace the main board.\n 3)cause:display defective\n solution:replace the display. 0.01
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "accutor 3" as a close match to "accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 20 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 20 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "accutor 3" as a response to "need help"
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 15:13:30] "[37mGET /get?msg=accutor%203 HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: not turning on 1.0
+INFO:chatterbot.chatterbot:Using "not turning on" as a close match to "not turning on" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 4 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 4 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i may be able to assist! please see possible solutions below\n 1)cause:ac mains not connected or battery too low\n solution:check that ac mains is properly connected to outlet or battery capacity is sufficient.\n 2)cause:cable may be defective\n solution:2.1. check that the cable between the keypad board and main board is correctly connected.\n 2.2. check that the cable between the power board and power management board is correctly connected.\n2.3. check that the cable between the main board and power management board is correctly connected.\n 3)cause:power board may be defective\n solution:replace the power board.\n 4)cause:power management board may be defective\n solution:replace the power management board.\n 5)cause:the main board failed\n solution:replace the main board."
+INFO:chatterbot.chatterbot:BestMatch selected "i may be able to assist! please see possible solutions below\n 1)cause:ac mains not connected or battery too low\n solution:check that ac mains is properly connected to outlet or battery capacity is sufficient.\n 2)cause:cable may be defective\n solution:2.1. check that the cable between the keypad board and main board is correctly connected.\n 2.2. check that the cable between the power board and power management board is correctly connected.\n2.3. check that the cable between the main board and power management board is correctly connected.\n 3)cause:power board may be defective\n solution:replace the power board.\n 4)cause:power management board may be defective\n solution:replace the power management board.\n 5)cause:the main board failed\n solution:replace the main board." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "not turning on" as a response to "accutor 3"
+INFO:werkzeug:127.0.0.1 - - [06/Jan/2021 15:13:45] "[37mGET /get?msg=not%20turning%20on HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 10:34:28] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 10:34:28] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 10:34:28] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: hi 1.0
+INFO:chatterbot.chatterbot:Using "hi" as a close match to "hi" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 6 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 6 options.
+INFO:chatterbot.chatterbot:Response selected. Using "hello"
+INFO:chatterbot.chatterbot:BestMatch selected "hello" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "hi" as a response to "not turning on"
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 10:34:42] "[37mGET /get?msg=hi HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: need help 1.0
+INFO:chatterbot.chatterbot:Using "need help" as a close match to "need help" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 8 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 8 options.
+INFO:chatterbot.chatterbot:Response selected. Using "what device can i help you with today?"
+INFO:chatterbot.chatterbot:BestMatch selected "what device can i help you with today?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "need help" as a response to "hi"
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 10:34:46] "[37mGET /get?msg=need%20help HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: i may be able to assist! please see possible solutions below\n 1)cause:cable defective\n solution:1.1 check if the cable between the display and main board and the backlight cable are correctly connected.\n 1.2 check that the cables and connectors are not damaged\n 2)cause:main board defective\n solution:replace the main board.\n 3)cause:display defective\n solution:replace the display. 0.01
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "accutor 3" as a close match to "accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 26 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 26 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "accutor 3" as a response to "need help"
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 10:34:49] "[37mGET /get?msg=accutor%203 HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: battery not charging 1.0
+INFO:chatterbot.chatterbot:Using "battery not charging" as a close match to "battery not charging" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 12 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 12 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i may be able to assist! please see possible solution \n1)cause:battery may be defective \nsolution:replace the battery."
+INFO:chatterbot.chatterbot:BestMatch selected "i may be able to assist! please see possible solution \n1)cause:battery may be defective \nsolution:replace the battery." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "battery not charging" as a response to "accutor 3"
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 10:34:57] "[37mGET /get?msg=battery%20not%20charging HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 10:40:39] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 10:40:39] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: i may be able to assist! please see possible solutions below\n 1)cause:cable defective\n solution:1.1 check if the cable between the display and main board and the backlight cable are correctly connected.\n 1.2 check that the cables and connectors are not damaged\n 2)cause:main board defective\n solution:replace the main board.\n 3)cause:display defective\n solution:replace the display. 0.01
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "accutor 3" as a close match to "accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 36 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 36 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "accutor 3" as a response to "battery not charging"
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 10:40:43] "[37mGET /get?msg=accutor%203 HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: not turning on 1.0
+INFO:chatterbot.chatterbot:Using "not turning on" as a close match to "not turning on" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 6 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 6 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i may be able to assist! please see possible solutions below\n 1)cause:ac mains not connected or battery too low\n solution:check that ac mains is properly connected to outlet or battery capacity is sufficient.\n 2)cause:cable may be defective\n solution:2.1. check that the cable between the keypad board and main board is correctly connected.\n 2.2. check that the cable between the power board and power management board is correctly connected.\n2.3. check that the cable between the main board and power management board is correctly connected.\n 3)cause:power board may be defective\n solution:replace the power board.\n 4)cause:power management board may be defective\n solution:replace the power management board.\n 5)cause:the main board failed\n solution:replace the main board."
+INFO:chatterbot.chatterbot:BestMatch selected "i may be able to assist! please see possible solutions below\n 1)cause:ac mains not connected or battery too low\n solution:check that ac mains is properly connected to outlet or battery capacity is sufficient.\n 2)cause:cable may be defective\n solution:2.1. check that the cable between the keypad board and main board is correctly connected.\n 2.2. check that the cable between the power board and power management board is correctly connected.\n2.3. check that the cable between the main board and power management board is correctly connected.\n 3)cause:power board may be defective\n solution:replace the power board.\n 4)cause:power management board may be defective\n solution:replace the power management board.\n 5)cause:the main board failed\n solution:replace the main board." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "not turning on" as a response to "accutor 3"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: not turning on 1.0
+INFO:chatterbot.chatterbot:Using "not turning on" as a close match to "not turning on" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 7 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 7 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i may be able to assist! please see possible solutions below\n 1)cause:ac mains not connected or battery too low\n solution:check that ac mains is properly connected to outlet or battery capacity is sufficient.\n 2)cause:cable may be defective\n solution:2.1. check that the cable between the keypad board and main board is correctly connected.\n 2.2. check that the cable between the power board and power management board is correctly connected.\n2.3. check that the cable between the main board and power management board is correctly connected.\n 3)cause:power board may be defective\n solution:replace the power board.\n 4)cause:power management board may be defective\n solution:replace the power management board.\n 5)cause:the main board failed\n solution:replace the main board."
+INFO:chatterbot.chatterbot:BestMatch selected "i may be able to assist! please see possible solutions below\n 1)cause:ac mains not connected or battery too low\n solution:check that ac mains is properly connected to outlet or battery capacity is sufficient.\n 2)cause:cable may be defective\n solution:2.1. check that the cable between the keypad board and main board is correctly connected.\n 2.2. check that the cable between the power board and power management board is correctly connected.\n2.3. check that the cable between the main board and power management board is correctly connected.\n 3)cause:power board may be defective\n solution:replace the power board.\n 4)cause:power management board may be defective\n solution:replace the power management board.\n 5)cause:the main board failed\n solution:replace the main board." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "not turning on" as a response to "not turning on"
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 10:40:52] "[35m[1mGET /get?msg=not%20turning%20on HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 10:41:47] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 10:41:47] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: i may be able to assist! please see possible solutions below\n 1)cause:cable defective\n solution:1.1 check if the cable between the display and main board and the backlight cable are correctly connected.\n 1.2 check that the cables and connectors are not damaged\n 2)cause:main board defective\n solution:replace the main board.\n 3)cause:display defective\n solution:replace the display. 0.01
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "accutor 3" as a close match to "accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 42 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 42 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "accutor 3" as a response to "not turning on"
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 10:41:50] "[37mGET /get?msg=accutor%203 HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: battery not charging 0.75
+INFO:chatterbot.chatterbot:Using "battery not charging" as a close match to "not charging" with a confidence of 0.75
+INFO:chatterbot.chatterbot:Selecting response from 26 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 26 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i may be able to assist! please see possible solution \n1)cause:battery may be defective \nsolution:replace the battery."
+INFO:chatterbot.chatterbot:BestMatch selected "i may be able to assist! please see possible solution \n1)cause:battery may be defective \nsolution:replace the battery." as a response with a confidence of 0.75
+INFO:chatterbot.chatterbot:Adding "not charging" as a response to "accutor 3"
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 10:41:53] "[37mGET /get?msg=not%20charging HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 10:43:21] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 10:43:21] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: i may be able to assist! please see possible solutions below\n 1)cause:cable defective\n solution:1.1 check if the cable between the display and main board and the backlight cable are correctly connected.\n 1.2 check that the cables and connectors are not damaged\n 2)cause:main board defective\n solution:replace the main board.\n 3)cause:display defective\n solution:replace the display. 0.01
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "accutor 3" as a close match to "accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 48 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 48 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "accutor 3" as a response to "not charging"
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 10:43:26] "[37mGET /get?msg=accutor%203 HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: battery not charging 0.75
+INFO:chatterbot.chatterbot:Similar text found: not charging 1.0
+INFO:chatterbot.chatterbot:Using "not charging" as a close match to "not charging" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 32 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 32 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i may be able to assist! please see possible solution \n1)cause:battery may be defective \nsolution:replace the battery."
+INFO:chatterbot.chatterbot:BestMatch selected "i may be able to assist! please see possible solution \n1)cause:battery may be defective \nsolution:replace the battery." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "not charging" as a response to "accutor 3"
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2021 10:43:28] "[35m[1mGET /get?msg=not%20charging HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
