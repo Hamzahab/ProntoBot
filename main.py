@@ -84,6 +84,7 @@ def get_bot_response():
     bot_input = bot.get_response(userText)
     if '\\n' in bot_input.text:
         string = '-'.join(bot_input.text.split("\\n")) 
+        print(';hi')
 
         return 
     return str(bot_input)
