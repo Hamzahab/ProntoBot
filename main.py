@@ -17,20 +17,10 @@ for i in filelist:
         with open(Path + i, 'r') as f:
             for statement in f:
                 # Here you can check (with regex, if, or whatever if the keyword is in the document.)
-                statement = statement.replace(". ", ".\n")
-                is_q_or_a = re.search('(Q: \n A:)?(.+)', statement)
+                is_q_or_a = re.search('(Q:|A:)?(.+)', statement)
+                # is_q_or_a = re.search(r'Q:(.+)\s A:(.+)',statement)
                 if is_q_or_a:
                     training_data.append(is_q_or_a.groups()[1])
-
-# Create a new ChatBot instance
-# bot = ChatBot(
-#     'Terminal',
-#     # storage_adapter='chatterbot.storage.MongoDatabaseAdapter',
-#     logic_adapters=[
-#         'chatterbot.logic.BestMatch'
-#     ],
-#     # database_uri='mongodb://localhost:27017/chatterbot-database'
-# )
 
 bot = ChatBot('ProntoBot',
     preprocessors=[
@@ -42,7 +32,7 @@ bot = ChatBot('ProntoBot',
     logic_adapters=[
     {
         'import_path': 'chatterbot.logic.BestMatch',
-        'maximum_similarity_threshold': 0.60
+        'maximum_similarity_threshold': 0.85
     }
 
 ])
@@ -57,23 +47,11 @@ trainer = ChatterBotCorpusTrainer(bot)
 trainer.train("chatterbot.corpus.english.greetings")
 
 
-
-# print('Hi, please tell me the name and/or model No. of the device in question today ')
-
-# # main loop
-# while True:
-#     try:
-#         bot_input = bot.get_response(input())
-#         print(bot_input)
-
-#     except(KeyboardInterrupt, EOFError, SystemExit):
-#         trainer.export_for_training("new_export.json")
-#         break
+trainer.export_for_training("new_export.json")
 
 app = Flask(__name__)
 app.static_folder = 'static'
-
-    
+ 
 @app.route("/")
 def home():
     return render_template("index.html")
@@ -81,13 +59,25 @@ def home():
 @app.route("/get")
 def get_bot_response():
     userText = request.args.get('msg')
-    bot_input = bot.get_response(userText)
-    if '\\n' in bot_input.text:
-        string = '-'.join(bot_input.text.split("\\n")) 
-        print(';hi')
+    bot_output = bot.get_response(userText)
 
-        return 
-    return str(bot_input)
+    if userText.lower() == 'yes' == userText.lower() == 'no':
+        return yes_no_feedback(userText,trainer)    
+
+    return str(bot_output)
+
+def yes_no_feedback(user_input_statement,my_trainer):
+    #user said yes
+    if user_input_statement.text.lower() == 'yes':
+        return my_trainer.get_response('accutor 3')
+    elif user_input_statement.text.lower() == 'no':
+        return my_trainer.get_response('not accutor 3')
+    return my_trainer.get_response('unknown input')
+
 
 if __name__ == "__main__":
     app.run(debug=True,port=5002)
+
+
+
+    

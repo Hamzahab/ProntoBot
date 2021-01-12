@@ -1,14 +1,23 @@
 
 Q:I'm sorry, but i don't have a response to your statement. Please try another one
- A: I'm sorry, but i don't have a response to your statement. Please try another one
+A: I'm sorry, but i don't have a response to your statement. Please try another one
 Q:battery not charging
- A: I may be able to assist! Please see possible solution \n1)Cause:Battery may be defective \nSolution:Replace the battery.
+A: I may be able to assist! Please see possible solution \\n1)Cause:Battery may be defective \\nSolution:Replace the battery.
 Q:my battery is not charging
- A: I may be able to assist! Please see possible solution \n1)Cause:Battery may be defective \nSolution:Replace the battery.
+A: I may be able to assist! Please see possible solution \n1)Cause:Battery may be defective \nSolution:Replace the battery.
 Q:battery charging problem
- A: I may be able to assist! Please see possible solution \n1)Cause:Battery may be defective \nSolution:Replace the battery.
+A: I may be able to assist! Please see possible solution \n1)Cause:Battery may be defective \nSolution:Replace the battery.
 Q:plugged in but not charging
- A: I may be able to assist! Please see possible solution \n1)Cause:Battery may be defective \nSolution:Replace the battery.
+A: I may be able to assist! Please see possible solution \n1)Cause:Battery may be defective \nSolution:Replace the battery.
 Q:doesnt seem to charge
- A: I may be able to assist! Please see possible solution \n1)Cause:Battery may be defective \nSolution:Replace the battery.
-
+A: I may be able to assist! Please see possible solution \n1)Cause:Battery may be defective \nSolution:Replace the battery.
+Q:battery doesnt seem to charge
+A: I may be able to assist! Please see possible solution \n1)Cause:Battery may be defective \nSolution:Replace the battery.
+Q:battery light not is not turning on
+A: I may be able to assist! Please see possible solution \n1)Cause:Battery may be defective \nSolution:Replace the battery.
+Q:battery indicator not is not turning on
+A: I may be able to assist! Please see possible solution \n1)Cause:Battery may be defective \nSolution:Replace the battery.
+Q:dead battery
+A: I may be able to assist! Please see possible solution \n1)Cause:Battery may be defective \nSolution:Replace the battery.
+Q:battery light not is not turning on
+A: I may be able to assist! Please see possible solution \n1)Cause:Battery may be defective \nSolution:Replace the battery.

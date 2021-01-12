@@ -1,0 +1,148 @@
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Hi 1.0
+INFO:chatterbot.chatterbot:Using "Hi" as a close match to "hi" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hello"
+INFO:chatterbot.chatterbot:BestMatch selected "Hello" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "hi" as a response to "None"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "fh fdhskfhjs ds" as a close match to "fh fdhskfhjs ds" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 36 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 36 options.
+INFO:chatterbot.chatterbot:Response selected. Using "battery not charging"
+INFO:chatterbot.chatterbot:BestMatch selected "battery not charging" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "fh fdhskfhjs ds" as a response to "hi"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "" as a close match to "" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 35 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 35 options.
+INFO:chatterbot.chatterbot:Response selected. Using "battery not charging"
+INFO:chatterbot.chatterbot:BestMatch selected "battery not charging" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "" as a response to "None"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "sjdaosa" as a close match to "sjdaosa" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 37 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 37 options.
+INFO:chatterbot.chatterbot:Response selected. Using "battery not charging"
+INFO:chatterbot.chatterbot:BestMatch selected "battery not charging" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "sjdaosa" as a response to "battery not charging"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Hi 1.0
+INFO:chatterbot.chatterbot:Using "Hi" as a close match to "hi" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hello"
+INFO:chatterbot.chatterbot:BestMatch selected "Hello" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "hi" as a response to "sjdaosa"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Hi 1.0
+INFO:chatterbot.chatterbot:Using "Hi" as a close match to "hi" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hello"
+INFO:chatterbot.chatterbot:BestMatch selected "Hello" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "hi" as a response to "None"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "kk" as a close match to "kk" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 71 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 71 options.
+INFO:chatterbot.chatterbot:Response selected. Using "battery not charging"
+INFO:chatterbot.chatterbot:BestMatch selected "battery not charging" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "kk" as a response to "hi"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "j" as a close match to "j" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 35 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 35 options.
+INFO:chatterbot.chatterbot:Response selected. Using "battery not charging"
+INFO:chatterbot.chatterbot:BestMatch selected "battery not charging" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "j" as a response to "None"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "kkk" as a close match to "kkk" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 35 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 35 options.
+INFO:chatterbot.chatterbot:Response selected. Using "battery not charging"
+INFO:chatterbot.chatterbot:BestMatch selected "battery not charging" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "kkk" as a response to "None"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "kk" as a close match to "kk" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 35 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 35 options.
+INFO:chatterbot.chatterbot:Response selected. Using "battery not charging"
+INFO:chatterbot.chatterbot:BestMatch selected "battery not charging" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "kk" as a response to "None"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: I may be able to assist! Please see possible solutions below\n 1)Cause:AC mains not connected or battery too low\n Solution:Check that AC mains is properly connected to outlet or battery capacity is sufficient.\n 2)Cause:cable may be defective\n Solution:2.1. Check that the cable between the keypad board and main board is correctly connected.\n 2.2. Check that the cable between the power board and power management board is correctly connected.\n2.3. Check that the cable between the main board and power management board is correctly connected.\n 3)Cause:Power board may be defective\n Solution:Replace the power board.\n 4)Cause:Power management board may be defective\n Solution:Replace the power management board.\n 5)Cause:The main board failed\n Solution:Replace the main board. 0.01
+INFO:chatterbot.chatterbot:Using "I may be able to assist! Please see possible solutions below\n 1)Cause:AC mains not connected or battery too low\n Solution:Check that AC mains is properly connected to outlet or battery capacity is sufficient.\n 2)Cause:cable may be defective\n Solution:2.1. Check that the cable between the keypad board and main board is correctly connected.\n 2.2. Check that the cable between the power board and power management board is correctly connected.\n2.3. Check that the cable between the main board and power management board is correctly connected.\n 3)Cause:Power board may be defective\n Solution:Replace the power board.\n 4)Cause:Power management board may be defective\n Solution:Replace the power management board.\n 5)Cause:The main board failed\n Solution:Replace the main board." as a close match to "ff" with a confidence of 0.01
+INFO:chatterbot.chatterbot:No responses found. Generating alternate response list.
+INFO:chatterbot.chatterbot:No known response to the input was found. Selecting a random response.
+INFO:chatterbot.chatterbot:BestMatch selected "module not loading" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "ff" as a response to "None"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "jj" as a close match to "jj" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 35 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 35 options.
+INFO:chatterbot.chatterbot:Response selected. Using "battery not charging"
+INFO:chatterbot.chatterbot:BestMatch selected "battery not charging" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "jj" as a response to "None"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "lll" as a close match to "lll" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 35 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 35 options.
+INFO:chatterbot.chatterbot:Response selected. Using "battery not charging"
+INFO:chatterbot.chatterbot:BestMatch selected "battery not charging" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "lll" as a response to "None"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "koko" as a close match to "koko" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 35 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 35 options.
+INFO:chatterbot.chatterbot:Response selected. Using "battery not charging"
+INFO:chatterbot.chatterbot:BestMatch selected "battery not charging" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "koko" as a response to "None"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Hi 1.0
+INFO:chatterbot.chatterbot:Using "Hi" as a close match to "hi" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hello"
+INFO:chatterbot.chatterbot:BestMatch selected "Hello" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "hi" as a response to "None"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "lll" as a close match to "lll" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 35 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 35 options.
+INFO:chatterbot.chatterbot:Response selected. Using "battery not charging"
+INFO:chatterbot.chatterbot:BestMatch selected "battery not charging" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "lll" as a response to "None"

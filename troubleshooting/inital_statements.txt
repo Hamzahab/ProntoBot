@@ -1,51 +1,46 @@
-categories:
-- initial responses
-- device name
-conversations:
 Q: accutorr 3
- A:I have information on this device. What seems to be the issue?
+A:I have information on this device. What seems to be the issue?
 Q: accutor 3
- A:I have information on this device. What seems to be the issue?
+A:I have information on this device. What seems to be the issue?
 Q: acuttor 3
- A:I have information on this device. What seems to be the issue?  
+A:I have information on this device. What seems to be the issue?  
 Q: accutorr three
- A:I have information on this device. What seems to be the issue?
+A:I have information on this device. What seems to be the issue?
 Q: acuttor 3
- A:I have information on this device. What seems to be the issue?
+A:I have information on this device. What seems to be the issue?
 
 
 Q: accutor 3 VSM
- A:I have information on this device. What seems to be the issue?
+A:I have information on this device. What seems to be the issue?
 Q: accutor 3 vital signs
- A:I have information on this device. What seems to be the issue?
+A:I have information on this device. What seems to be the issue?
 Q: accutor 3 Vital signs monitor
- A:I have information on this device. What seems to be the issue?
+A:I have information on this device. What seems to be the issue?
 Q: accutor 3 monitor
- A:I have information on this device. What seems to be the issue?
+A:I have information on this device. What seems to be the issue?
 Q: vital signs monitor
- A:do you mean the Accutorr 3 vital signs monitor? (y/n)
- A:y
- A:I have information on this device. What seems to be the issue?
+A:do you mean the Accutorr 3 vital signs monitor? (yes/no)
+Q:yes
+A:I have information on this device. What seems to be the issue?
 
 Q: spot check monitor
- A:do you mean the Accutorr 3 vital signs monitor? (yes or no)
- A:y
- A:I have information on this device. What seems to be the issue?
+A:do you mean the Accutorr 3 vital signs monitor? (yes or no)
+
 Q: spot check
- A:do you mean the Accutorr 3 vital signs monitor? (yes or no)
- A:y
- A:I have information on this device. What seems to be the issue?
+A:do you mean the Accutorr 3 vital signs monitor? (yes or no)
 
 
 Q: vital signs monitor
- A:do you mean the Accutorr 3 vital signs monitor? (yes or no)
- A:n
- A:I currently only have access to the Accutorr 3 in my database. Update incoming in the near future!
+A:do you mean the Accutorr 3 vital signs monitor? (yes or no)
+Q:not accutor 3
+A:I currently only have access to the Accutorr 3 in my database. Update incoming in the near future!
 Q: spot check monitor
- A:do you mean the Accutorr 3 vital signs monitor? (yes or no)
- A:n
- A:I currently only have access to the Accutorr 3 in my database. Update incoming in the near future!
+A:do you mean the Accutorr 3 vital signs monitor? (yes or no)
+Q:no
+A:I currently only have access to the Accutorr 3 in my database. Update incoming in the near future!
 Q: spot check
- A:do you mean the Accutorr 3 vital signs monitor? (yes or no)
- A:n
- A:I currently only have access to the Accutorr 3 in my database. Update incoming in the near future!
+A:do you mean the Accutorr 3 vital signs monitor? (yes or no)
+Q:no
+A:I currently only have access to the Accutorr 3 in my database. Update incoming in the near future!
+Q:unknown input
+A:I did not understand. Please try another statement or re-word the current one
