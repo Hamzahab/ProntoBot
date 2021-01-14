@@ -2,7 +2,7 @@
 Q:I'm sorry, but i don't have a response to your statement. Please try another one
 A: I'm sorry, but i don't have a response to your statement. Please try another one
 Q:battery not charging
-A: I may be able to assist! Please see possible solution \\n1)Cause:Battery may be defective \\nSolution:Replace the battery.
+A: I may be able to assist! Please see possible solution \n1)Cause:Battery may be defective \nSolution:Replace the battery.
 Q:my battery is not charging
 A: I may be able to assist! Please see possible solution \n1)Cause:Battery may be defective \nSolution:Replace the battery.
 Q:battery charging problem

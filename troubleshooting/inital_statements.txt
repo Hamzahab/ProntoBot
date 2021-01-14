@@ -28,8 +28,6 @@ A:do you mean the Accutorr 3 vital signs monitor? (yes or no)
 
 Q: spot check
 A:do you mean the Accutorr 3 vital signs monitor? (yes or no)
-
-
 Q: vital signs monitor
 A:do you mean the Accutorr 3 vital signs monitor? (yes or no)
 Q:not accutor 3
