@@ -7,26 +7,8 @@ from chatterbot.trainers import ListTrainer
 
 import logging
 logging.basicConfig(filename='output.log',level=logging.DEBUG)
-training_data = []
 
-Path = "/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/troubleshooting/"
-filelist = os.listdir(Path)
-for i in filelist:
-    if i.endswith(".txt"):  # You could also add "and i.startswith('f')
-        with open(Path + i, 'r') as f:
-            for statement in f:
-                # Here you can check (with regex, if, or whatever if the keyword is in the document.)
-                #replacing newlines w/ breakpoints for html conversion
-                statement = statement.replace("\n", "<br>")
-                statement = statement.replace("\\n", "<br>")
-                is_q_or_a = re.search('(Q:|A:)?(.+)', statement)
-                # is_q_or_a = re.search(r'Q:(.+)\s A:(.+)',statement)
-                if is_q_or_a:
-                    training_data.append(is_q_or_a.groups()[1])
-                    
 
-                    
-print(training_data)
 bot = ChatBot('ProntoBot',
     preprocessors=[
         'chatterbot.preprocessors.clean_whitespace',
@@ -37,19 +19,16 @@ bot = ChatBot('ProntoBot',
     logic_adapters=[
         {
         'import_path': 'chatterbot.logic.BestMatch',
-        'maximum_similarity_threshold': 0.85
+        'maximum_similarity_threshold': 0.65
         }
 
 ])
 
-trainer = ListTrainer(bot)
-trainer.train(training_data)
+trainer = ChatterBotCorpusTrainer(bot)
 
-# trainer = ChatterBotCorpusTrainer(bot)
+trainer.train("chatterbot.corpus.troubleshooting")
 
-# # trainer.train("chatterbot.corpus.troubleshooting")
-
-# trainer.train("chatterbot.corpus.english.greetings")
+trainer.train("chatterbot.corpus.english.greetings")
 
 
 trainer.export_for_training("training_log.json")

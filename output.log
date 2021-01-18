@@ -2107,3 +2107,304 @@ INFO:chatterbot.chatterbot:Response selected. Using "i may be able to assist! pl
 INFO:chatterbot.chatterbot:BestMatch selected "i may be able to assist! please see possible solutions below<br>1)cause:cable defective<br>solution:check that the cable between the keypad board and main board is correctly connected.<br>2)cause:keypad board failure<br>solution:replace the keypad board.<br>" as a response with a confidence of 0.9
 INFO:chatterbot.chatterbot:Adding "buttons not working" as a response to "battery not charging"
 INFO:werkzeug:127.0.0.1 - - [14/Jan/2021 09:26:21] "[37mGET /get?msg=buttons%20not%20working HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 21:31:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 21:31:30] "[37mGET /static/styles/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 21:31:31] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "accutor 3" as a close match to "accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 23 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 23 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "accutor 3" as a response to "None"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 21:31:35] "[37mGET /get?msg=accutor%203 HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: battery light not is not turning on 0.57
+INFO:chatterbot.chatterbot:Similar text found: not turning on 1.0
+INFO:chatterbot.chatterbot:Using "not turning on" as a close match to "not turning on" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 12 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 12 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i may be able to assist! please see possible solutions below\n 1)cause:ac mains not connected or battery too low\n solution:check that ac mains is properly connected to outlet or battery capacity is sufficient.\n 2)cause:cable may be defective\n solution:2.1. check that the cable between the keypad board and main board is correctly connected.\n 2.2. check that the cable between the power board and power management board is correctly connected.\n2.3. check that the cable between the main board and power management board is correctly connected.\n 3)cause:power board may be defective\n solution:replace the power board.\n 4)cause:power management board may be defective\n solution:replace the power management board.\n 5)cause:the main board failed\n solution:replace the main board."
+INFO:chatterbot.chatterbot:BestMatch selected "i may be able to assist! please see possible solutions below\n 1)cause:ac mains not connected or battery too low\n solution:check that ac mains is properly connected to outlet or battery capacity is sufficient.\n 2)cause:cable may be defective\n solution:2.1. check that the cable between the keypad board and main board is correctly connected.\n 2.2. check that the cable between the power board and power management board is correctly connected.\n2.3. check that the cable between the main board and power management board is correctly connected.\n 3)cause:power board may be defective\n solution:replace the power board.\n 4)cause:power management board may be defective\n solution:replace the power management board.\n 5)cause:the main board failed\n solution:replace the main board." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "not turning on" as a response to "accutor 3"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 21:32:00] "[37mGET /get?msg=not%20turning%20on HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 21:32:15] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 21:32:15] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 vital signs 0.55
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 vital signs monitor 0.79
+INFO:chatterbot.chatterbot:Similar text found: vital signs monitor 1.0
+INFO:chatterbot.chatterbot:Using "vital signs monitor" as a close match to "vital signs monitor" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 20 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 20 options.
+INFO:chatterbot.chatterbot:Response selected. Using "do you mean the accutorr 3 vital signs monitor? (yes/no)"
+INFO:chatterbot.chatterbot:BestMatch selected "do you mean the accutorr 3 vital signs monitor? (yes/no)" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "vital signs monitor" as a response to "not turning on"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 21:32:28] "[37mGET /get?msg=vital%20signs%20monitor HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: do you mean the accutorr 3 vital signs monitor? (yes/no) 0.1
+INFO:chatterbot.chatterbot:Similar text found: yes 1.0
+INFO:chatterbot.chatterbot:Using "yes" as a close match to "yes" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 20 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 20 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "yes" as a response to "vital signs monitor"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "accutor 3" as a close match to "accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 25 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 25 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "accutor 3" as a response to "yes"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 21:32:30] "[37mGET /get?msg=yes HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 21:32:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 21:32:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 vsm 0.38
+INFO:chatterbot.chatterbot:Using "accutor 3 vsm" as a close match to "vsm" with a confidence of 0.38
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:No responses found. Generating alternate response list.
+INFO:chatterbot.chatterbot:No known response to the input was found. Selecting basic response.
+INFO:chatterbot.chatterbot:BestMatch selected "need help" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "vsm" as a response to "accutor 3"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 21:32:49] "[37mGET /get?msg=vsm HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 21:33:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 21:33:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 vital signs 0.55
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 vital signs monitor 0.79
+INFO:chatterbot.chatterbot:Similar text found: vital signs monitor 1.0
+INFO:chatterbot.chatterbot:Using "vital signs monitor" as a close match to "vital signs monitor" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 22 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 22 options.
+INFO:chatterbot.chatterbot:Response selected. Using "do you mean the accutorr 3 vital signs monitor? (yes/no)"
+INFO:chatterbot.chatterbot:BestMatch selected "do you mean the accutorr 3 vital signs monitor? (yes/no)" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "vital signs monitor" as a response to "vsm"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 21:33:05] "[37mGET /get?msg=vital%20signs%20monitor HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: i'm sorry, but i don't have a response to your statement. please try another one 0.05
+INFO:chatterbot.chatterbot:Similar text found: do you mean the accutorr 3 vital signs monitor? (yes/no) 0.07
+INFO:chatterbot.chatterbot:Similar text found: no 1.0
+INFO:chatterbot.chatterbot:Using "no" as a close match to "no" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 20 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 20 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i currently only have access to the accutorr 3 in my database. update incoming in the near future!"
+INFO:chatterbot.chatterbot:BestMatch selected "i currently only have access to the accutorr 3 in my database. update incoming in the near future!" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "no" as a response to "vital signs monitor"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "not accutor 3" as a close match to "not accutor 3" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 563 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 563 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i'm sorry, but i don't have a response to your statement. please try another one"
+INFO:chatterbot.chatterbot:BestMatch selected "i'm sorry, but i don't have a response to your statement. please try another one" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "not accutor 3" as a response to "no"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 21:33:07] "[37mGET /get?msg=no HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: i'm sorry, but i don't have a response to your statement. please try another one 0.05
+INFO:chatterbot.chatterbot:Similar text found: do you mean the accutorr 3 vital signs monitor? (yes/no) 0.07
+INFO:chatterbot.chatterbot:Similar text found: no 1.0
+INFO:chatterbot.chatterbot:Using "no" as a close match to "no" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 22 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 22 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i currently only have access to the accutorr 3 in my database. update incoming in the near future!"
+INFO:chatterbot.chatterbot:BestMatch selected "i currently only have access to the accutorr 3 in my database. update incoming in the near future!" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "no" as a response to "not accutor 3"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: not accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "not accutor 3" as a close match to "not accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i'm sorry, but i don't have a response to your statement. please try another one"
+INFO:chatterbot.chatterbot:BestMatch selected "i'm sorry, but i don't have a response to your statement. please try another one" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "not accutor 3" as a response to "no"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 21:33:28] "[37mGET /get?msg=no HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: do you mean the accutorr 3 vital signs monitor? (yes/no) 0.1
+INFO:chatterbot.chatterbot:Similar text found: yes 1.0
+INFO:chatterbot.chatterbot:Using "yes" as a close match to "yes" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 22 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 22 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "yes" as a response to "not accutor 3"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "accutor 3" as a close match to "accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 27 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 27 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "accutor 3" as a response to "yes"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 21:58:47] "[37mGET /get?msg=yes HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 22:00:04] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 22:00:04] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: do you mean the accutorr 3 vital signs monitor? (yes/no) 0.1
+INFO:chatterbot.chatterbot:Similar text found: yes 1.0
+INFO:chatterbot.chatterbot:Using "yes" as a close match to "yes" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 12 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 12 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "yes" as a response to "None"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "accutor 3" as a close match to "accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 15 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 15 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "accutor 3" as a response to "yes"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 22:01:07] "[37mGET /get?msg=yes HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: i'm sorry, but i don't have a response to your statement. please try another one 0.05
+INFO:chatterbot.chatterbot:Similar text found: do you mean the accutorr 3 vital signs monitor? (yes/no) 0.07
+INFO:chatterbot.chatterbot:Similar text found: no 1.0
+INFO:chatterbot.chatterbot:Using "no" as a close match to "no" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 12 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 12 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i currently only have access to the accutorr 3 in my database. update incoming in the near future!"
+INFO:chatterbot.chatterbot:BestMatch selected "i currently only have access to the accutorr 3 in my database. update incoming in the near future!" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "no" as a response to "accutor 3"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "not accutor 3" as a close match to "not accutor 3" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 333 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 333 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i'm sorry, but i don't have a response to your statement. please try another one"
+INFO:chatterbot.chatterbot:BestMatch selected "i'm sorry, but i don't have a response to your statement. please try another one" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "not accutor 3" as a response to "no"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 22:01:53] "[37mGET /get?msg=no HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 22:02:40] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 22:02:40] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 22:02:40] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 22:02:40] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "accutor 3" as a close match to "accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 17 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 17 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "accutor 3" as a response to "not accutor 3"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 22:02:44] "[37mGET /get?msg=accutor%203 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 22:02:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 22:02:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: spot check monitor 1.0
+INFO:chatterbot.chatterbot:Using "spot check monitor" as a close match to "spot check monitor" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:Selecting response from 9 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 9 options.
+INFO:chatterbot.chatterbot:Response selected. Using "do you mean the accutorr 3 vital signs monitor? (yes/no)"
+INFO:chatterbot.chatterbot:BestMatch selected "do you mean the accutorr 3 vital signs monitor? (yes/no)" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "spot check monitor" as a response to "accutor 3"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 22:02:59] "[37mGET /get?msg=spot%20check%20monitor HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: i'm sorry, but i don't have a response to your statement. please try another one 0.05
+INFO:chatterbot.chatterbot:Similar text found: do you mean the accutorr 3 vital signs monitor? (yes/no) 0.07
+INFO:chatterbot.chatterbot:Similar text found: no 1.0
+INFO:chatterbot.chatterbot:Using "no" as a close match to "no" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 14 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 14 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i currently only have access to the accutorr 3 in my database. update incoming in the near future!"
+INFO:chatterbot.chatterbot:BestMatch selected "i currently only have access to the accutorr 3 in my database. update incoming in the near future!" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "no" as a response to "spot check monitor"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: not accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "not accutor 3" as a close match to "not accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i'm sorry, but i don't have a response to your statement. please try another one"
+INFO:chatterbot.chatterbot:BestMatch selected "i'm sorry, but i don't have a response to your statement. please try another one" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "not accutor 3" as a response to "no"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 22:03:02] "[37mGET /get?msg=no HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: i'm sorry, but i don't have a response to your statement. please try another one 0.05
+INFO:chatterbot.chatterbot:Similar text found: do you mean the accutorr 3 vital signs monitor? (yes/no) 0.07
+INFO:chatterbot.chatterbot:Similar text found: no 1.0
+INFO:chatterbot.chatterbot:Using "no" as a close match to "no" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 20 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 20 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i currently only have access to the accutorr 3 in my database. update incoming in the near future!"
+INFO:chatterbot.chatterbot:BestMatch selected "i currently only have access to the accutorr 3 in my database. update incoming in the near future!" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "no" as a response to "not accutor 3"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: not accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "not accutor 3" as a close match to "not accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 4 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 4 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i'm sorry, but i don't have a response to your statement. please try another one"
+INFO:chatterbot.chatterbot:BestMatch selected "i'm sorry, but i don't have a response to your statement. please try another one" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "not accutor 3" as a response to "no"
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 22:03:29] "[37mGET /get?msg=no HTTP/1.1[0m" 200 -
