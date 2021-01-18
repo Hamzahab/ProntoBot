@@ -23,7 +23,7 @@ bot = ChatBot('ProntoBot',
         }
 
 ])
-
+#mod
 trainer = ChatterBotCorpusTrainer(bot)
 
 trainer.train("chatterbot.corpus.troubleshooting")
