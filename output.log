@@ -2408,3 +2408,182 @@ INFO:chatterbot.chatterbot:Response selected. Using "i'm sorry, but i don't have
 INFO:chatterbot.chatterbot:BestMatch selected "i'm sorry, but i don't have a response to your statement. please try another one" as a response with a confidence of 1.0
 INFO:chatterbot.chatterbot:Adding "not accutor 3" as a response to "no"
 INFO:werkzeug:127.0.0.1 - - [17/Jan/2021 22:03:29] "[37mGET /get?msg=no HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 18:54:32] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 18:54:32] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 18:54:33] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "accutor 3" as a close match to "accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 34 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 34 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "accutor 3" as a response to "not accutor 3"
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 18:54:42] "[37mGET /get?msg=accutor%203 HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: battery light not is not turning on 0.57
+INFO:chatterbot.chatterbot:Similar text found: not turning on 1.0
+INFO:chatterbot.chatterbot:Using "not turning on" as a close match to "not turning on" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 18 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 18 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i may be able to assist! please see possible solutions below\n 1)cause:ac mains not connected or battery too low\n solution:check that ac mains is properly connected to outlet or battery capacity is sufficient.\n 2)cause:cable may be defective\n solution:2.1. check that the cable between the keypad board and main board is correctly connected.\n 2.2. check that the cable between the power board and power management board is correctly connected.\n2.3. check that the cable between the main board and power management board is correctly connected.\n 3)cause:power board may be defective\n solution:replace the power board.\n 4)cause:power management board may be defective\n solution:replace the power management board.\n 5)cause:the main board failed\n solution:replace the main board."
+INFO:chatterbot.chatterbot:BestMatch selected "i may be able to assist! please see possible solutions below\n 1)cause:ac mains not connected or battery too low\n solution:check that ac mains is properly connected to outlet or battery capacity is sufficient.\n 2)cause:cable may be defective\n solution:2.1. check that the cable between the keypad board and main board is correctly connected.\n 2.2. check that the cable between the power board and power management board is correctly connected.\n2.3. check that the cable between the main board and power management board is correctly connected.\n 3)cause:power board may be defective\n solution:replace the power board.\n 4)cause:power management board may be defective\n solution:replace the power management board.\n 5)cause:the main board failed\n solution:replace the main board." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "not turning on" as a response to "accutor 3"
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 18:54:47] "[37mGET /get?msg=not%20turning%20on HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 18:55:54] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 18:55:54] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "accutor 3" as a close match to "accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 10 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 10 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "accutor 3" as a response to "None"
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 18:55:58] "[37mGET /get?msg=accutor%203 HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: battery light not is not turning on 0.57
+INFO:chatterbot.chatterbot:Similar text found: not turning on 1.0
+INFO:chatterbot.chatterbot:Using "not turning on" as a close match to "not turning on" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 6 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 6 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i may be able to assist! please see possible solutions below<br> 1)cause:ac mains not connected or battery too low<br> solution:check that ac mains is properly connected to outlet or battery capacity is sufficient.<br> 2)cause:cable may be defective<br> solution:2.1. check that the cable between the keypad board and main board is correctly connected.<br> 2.2. check that the cable between the power board and power management board is correctly connected.<br>2.3. check that the cable between the main board and power management board is correctly connected.<br> 3)cause:power board may be defective<br> solution:replace the power board.<br> 4)cause:power management board may be defective<br> solution:replace the power management board.<br> 5)cause:the main board failed<br> solution:replace the main board."
+INFO:chatterbot.chatterbot:BestMatch selected "i may be able to assist! please see possible solutions below<br> 1)cause:ac mains not connected or battery too low<br> solution:check that ac mains is properly connected to outlet or battery capacity is sufficient.<br> 2)cause:cable may be defective<br> solution:2.1. check that the cable between the keypad board and main board is correctly connected.<br> 2.2. check that the cable between the power board and power management board is correctly connected.<br>2.3. check that the cable between the main board and power management board is correctly connected.<br> 3)cause:power board may be defective<br> solution:replace the power board.<br> 4)cause:power management board may be defective<br> solution:replace the power management board.<br> 5)cause:the main board failed<br> solution:replace the main board." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "not turning on" as a response to "accutor 3"
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 18:56:13] "[37mGET /get?msg=not%20turning%20on HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 18:57:20] "[35m[1mGET /get?msg=do%20you%20mean%20the%20accutorr%203%20vital%20signs%20monitor%3F%20(yes%2Fno) HTTP/1.1[0m" 500 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: cant see measurements 0.33
+INFO:chatterbot.chatterbot:Similar text found: need help 1.0
+INFO:chatterbot.chatterbot:Using "need help" as a close match to "need help" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.chatterbot:Response selected. Using "what device can i help you with today?"
+INFO:chatterbot.chatterbot:BestMatch selected "what device can i help you with today?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "need help" as a response to "not turning on"
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 18:57:28] "[37mGET /get?msg=need%20help HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "accutor 3" as a close match to "accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 12 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 12 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "accutor 3" as a response to "need help"
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 18:57:33] "[37mGET /get?msg=accutor%203 HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 vital signs 0.55
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 vital signs monitor 0.79
+INFO:chatterbot.chatterbot:Using "accutor 3 vital signs monitor" as a close match to "vital signs monitor" with a confidence of 0.79
+INFO:chatterbot.chatterbot:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 0.79
+INFO:chatterbot.chatterbot:Adding "vital signs monitor" as a response to "accutor 3"
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 18:57:39] "[37mGET /get?msg=vital%20signs%20monitor HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 18:59:39] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 18:59:40] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: hi 1.0
+INFO:chatterbot.chatterbot:Using "hi" as a close match to "hi" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:Selecting response from 5 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 5 options.
+INFO:chatterbot.chatterbot:Response selected. Using "hello"
+INFO:chatterbot.chatterbot:BestMatch selected "hello" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "hi" as a response to "vital signs monitor"
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 18:59:43] "[35m[1mGET /get?msg=hi HTTP/1.1[0m" 500 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: hello 1.0
+INFO:chatterbot.chatterbot:Using "hello" as a close match to "hello" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 10 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 10 options.
+INFO:chatterbot.chatterbot:Response selected. Using "hi"
+INFO:chatterbot.chatterbot:BestMatch selected "hi" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "hello" as a response to "hi"
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 18:59:45] "[35m[1mGET /get?msg=hello HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 19:00:01] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 19:00:01] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: hi 1.0
+INFO:chatterbot.chatterbot:Using "hi" as a close match to "hi" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 8 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 8 options.
+INFO:chatterbot.chatterbot:Response selected. Using "hello"
+INFO:chatterbot.chatterbot:BestMatch selected "hello" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "hi" as a response to "hello"
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 19:00:04] "[37mGET /get?msg=hi HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: cant see measurements 0.33
+INFO:chatterbot.chatterbot:Similar text found: need help 1.0
+INFO:chatterbot.chatterbot:Using "need help" as a close match to "need help" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "hi"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "hello"
+INFO:chatterbot.chatterbot:Selecting response from 8 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 8 options.
+INFO:chatterbot.chatterbot:Response selected. Using "what device can i help you with today?"
+INFO:chatterbot.chatterbot:BestMatch selected "what device can i help you with today?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "need help" as a response to "hi"
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 19:00:07] "[37mGET /get?msg=need%20help HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "accutor 3" as a close match to "accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "hi"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "hello"
+INFO:chatterbot.chatterbot:Selecting response from 34 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 34 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "accutor 3" as a response to "need help"
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2021 19:00:10] "[37mGET /get?msg=accutor%203 HTTP/1.1[0m" 200 -
