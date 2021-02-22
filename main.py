@@ -7,10 +7,8 @@ from chatterbot.trainers import ListTrainer
 
 import logging
 logging.basicConfig(filename='output.log',level=logging.DEBUG)
-#changes to implement: past statement tracking, response based on previous x statements
-#, specifically bots previous statement and current response from user: if match to path, then return 
-# specific, otherwise get first response
 
+#initializing chatbot
 bot = ChatBot('ProntoBot',
     preprocessors=[
         'chatterbot.preprocessors.clean_whitespace',
@@ -25,9 +23,11 @@ bot = ChatBot('ProntoBot',
         }
 
 ])
-#mod
+
+#setting training as corpus trainer
 trainer = ChatterBotCorpusTrainer(bot)
 
+#training on special corpi of data
 trainer.train("chatterbot.corpus.troubleshooting")
 
 trainer.train("chatterbot.corpus.english.greetings")
@@ -35,6 +35,7 @@ trainer.train("chatterbot.corpus.english.greetings")
 
 trainer.export_for_training("training_log.json")
 
+#initializing Flask backend
 app = Flask(__name__)
 app.static_folder = 'static'
 
@@ -44,12 +45,10 @@ def home():
 
 @app.route("/get")
 def get_bot_response():
+    # getting input from front end
     userText = request.args.get('msg')
+    # returnining best response
     bot_output = bot.get_response(userText).text.capitalize()
-
-    # if userText.lower() == 'yes' or userText.lower() == 'no':
-    #     return yes_no_feedback(userText,bot)    
-
     return str(bot_output)
 
 # def yes_no_feedback(user_input_statement,training_bot):
