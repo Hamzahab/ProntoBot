@@ -1,0 +1,11 @@
+This document references the solution codes triggered by the customer 
+Code ranges - {1 - 19 : Power on problems, 20 - 39 : ... }
+Codes:
+1: Battery and AC mains are connected and working
+2: Keypad board and main board cable is connected properly
+3: Power board and power management board cable is connected properly
+4: Main board and power management board cable is connected properly
+5: Power board has been replaced
+6: main board replaced has been replaced
+7: all solutions possible have not worked, must route to agent
+
