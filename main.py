@@ -1,12 +1,16 @@
-from flask import Flask, render_template, request
+from yesnostruc import solution_dict
+from flask import Flask, render_template, request, session
+
 import os
 import re
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 from chatterbot.trainers import ListTrainer
-
+from chatterbot.conversation import Statement
 import logging
-logging.basicConfig(filename='output.log',level=logging.DEBUG)
+
+app = Flask(__name__)
+app.static_folder = 'static'
 
 #initializing chatbot
 bot = ChatBot('ProntoBot',
@@ -19,48 +23,67 @@ bot = ChatBot('ProntoBot',
     logic_adapters=[
         {
         'import_path': 'chatterbot.logic.BestMatch',
-        'maximum_similarity_threshold': 0.65
+        'maximum_similarity_threshold': 0.75
         }
 
 ])
 
-#setting training as corpus trainer
-trainer = ChatterBotCorpusTrainer(bot)
+def setup():
+    logging.basicConfig(filename='output.log',level=logging.DEBUG)
+    # last_response = ''
+    
+    #setting training as corpus trainer
+    trainer = ChatterBotCorpusTrainer(bot)
 
-#training on special corpi of data
-trainer.train("chatterbot.corpus.troubleshooting")
+    #training on special corpi of data
+    trainer.train("chatterbot.corpus.troubleshooting")
 
-trainer.train("chatterbot.corpus.english.greetings")
+    trainer.train("chatterbot.corpus.english.greetings")
 
 
-trainer.export_for_training("training_log.json")
+    trainer.export_for_training("training_log.json")
+    return bot
 
-#initializing Flask backend
-app = Flask(__name__)
-app.static_folder = 'static'
 
 @app.route("/")
-def home():
+def run():
+    session['last_response'] = ''
     return render_template("index.html")
+
+
 
 @app.route("/get")
 def get_bot_response():
     # getting input from front end
-    userText = request.args.get('msg')
-    # returnining best response
-    bot_output = bot.get_response(userText).text.capitalize()
+    userStatement = request.args.get('msg')
+
+    if userStatement == 'did not work':
+        #if last response provided exists in solution path, get its next solution
+        if  session['last_response'] in solution_dict:
+            bot_output = bot.generate_response(Statement(text = solution_dict.get(session['last_response'])))
+            print("confidence value is " + str(bot_output.confidence))
+            session['last_response'] = bot_output.text
+            bot_output = bot_output.text.capitalize()
+        else:
+            bot_output = 'Cannot assist in this'
+
+    elif userStatement.lower() == 'worked':
+         bot_output = "Perfect! I'm happy to have been a help"
+    else:
+        # print('in here')
+        bot_output = bot.generate_response(Statement(text=userStatement))
+        print("confidence value is " + str(bot_output.confidence))
+        session['last_response'] = bot_output.text
+        bot_output = bot_output.text.capitalize()
+
     return str(bot_output)
 
-# def yes_no_feedback(user_input_statement,training_bot):
-#     #user said yes
-#     if user_input_statement.lower() == 'yes':
-#         return training_bot.get_response('accutor 3').text
-#     elif user_input_statement.lower() == 'no':
-#         return training_bot.get_response('not accutor 3').text
-#     return training_bot.get_response('unknown input').text
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":    
+    #initializing Flask backend
+    setup()
+    app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'
     app.run(debug=True,port=5000)
 
 
