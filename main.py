@@ -19,11 +19,11 @@ bot = ChatBot('ProntoBot',
         'chatterbot.preprocessors.to_lower',
 
     ],
-    storage_adapter='chatterbot.storage.MongoDatabaseAdapter',
+    storage_adapter='chatterbot.storage.SQLStorageAdapter',
     logic_adapters=[
         {
         'import_path': 'chatterbot.logic.BestMatch',
-        'maximum_similarity_threshold': 0.75
+        'maximum_similarity_threshold': 0.60
         }
 
 ])
@@ -36,9 +36,9 @@ def setup():
     trainer = ChatterBotCorpusTrainer(bot)
 
     #training on special corpi of data
-    trainer.train("chatterbot.corpus.troubleshooting")
+    trainer.train("chatterbot.corpus.Accutor_3")
 
-    trainer.train("chatterbot.corpus.english.greetings")
+    # trainer.train("chatterbot.corpus.english.greetings")
 
 
     trainer.export_for_training("training_log.json")
@@ -72,7 +72,8 @@ def get_bot_response():
     else:
         # print('in here')
         bot_output = bot.generate_response(Statement(text=userStatement))
-        print("confidence value is " + str(bot_output.confidence))
+        print("confidence value is " + str(bot_output.confidence) + "\n" +"Statement persona is: " + bot_output.persona)
+        # bot_output.id = 3
         session['last_response'] = bot_output.text
         bot_output = bot_output.text.capitalize()
 
