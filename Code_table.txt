@@ -9,3 +9,7 @@ Codes:
 6: main board replaced has been replaced
 7: all solutions possible have not worked, must route to agent
 
+8: cable between keypad board and main board is correctly connected
+
+9: cable between the display and main board and the backlight cable are correctly connected
+10: Main board already replaced

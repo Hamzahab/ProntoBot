@@ -6890,3 +6890,123 @@ INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatB
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [05/May/2021 14:45:58] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/May/2021 14:45:58] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/May/2021 14:45:58] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/May/2021 14:46:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/May/2021 14:46:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 1.0
+INFO:chatterbot.chatterbot:Using "accutor 3" as a close match to "accutor 3" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 68 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 68 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 1.0
+INFO:werkzeug:127.0.0.1 - - [05/May/2021 14:46:05] "[37mGET /get?msg=accutor%203 HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: buttons not working 1.0
+INFO:chatterbot.chatterbot:Using "buttons not working" as a close match to "buttons not working" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 51 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 51 options.
+INFO:chatterbot.chatterbot:Response selected. Using "may be able to assist! please see possible solutions below<br>1)cause:cable defective<br>solution:check that the cable between the keypad board and main board is correctly connected.<br>2)cause:keypad board failure<br>solution:replace the keypad board."
+INFO:chatterbot.chatterbot:BestMatch selected "may be able to assist! please see possible solutions below<br>1)cause:cable defective<br>solution:check that the cable between the keypad board and main board is correctly connected.<br>2)cause:keypad board failure<br>solution:replace the keypad board." as a response with a confidence of 1.0
+INFO:werkzeug:127.0.0.1 - - [05/May/2021 14:46:08] "[37mGET /get?msg=buttons%20not%20working HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/May/2021 14:46:14] "[37mGET /get?msg=did%20not%20work HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [05/May/2021 14:49:08] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/May/2021 14:49:08] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: buttons not working 1.0
+INFO:chatterbot.chatterbot:Using "buttons not working" as a close match to "buttons not working" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 6 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 6 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i may be able to assist! please see possible solution below<br>cause:cable defective<br>solution:check that the cable between the keypad board and main board is correctly connected.please give this a try, and respond with 'worked' or 'did not work' if this helped, and we'll proceed from there!"
+INFO:chatterbot.chatterbot:BestMatch selected "i may be able to assist! please see possible solution below<br>cause:cable defective<br>solution:check that the cable between the keypad board and main board is correctly connected.please give this a try, and respond with 'worked' or 'did not work' if this helped, and we'll proceed from there!" as a response with a confidence of 1.0
+INFO:werkzeug:127.0.0.1 - - [05/May/2021 14:49:13] "[37mGET /get?msg=buttons%20not%20working HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: code8 1.0
+INFO:chatterbot.chatterbot:Using "code8" as a close match to "code8" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 20 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 20 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i'm sorry to hear that. please see possible solution below<br>cause:keypad board failure<br>solution:replace the keypad board."
+INFO:chatterbot.chatterbot:BestMatch selected "i'm sorry to hear that. please see possible solution below<br>cause:keypad board failure<br>solution:replace the keypad board." as a response with a confidence of 1.0
+INFO:werkzeug:127.0.0.1 - - [05/May/2021 14:49:16] "[37mGET /get?msg=did%20not%20work HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: code7 1.0
+INFO:chatterbot.chatterbot:Using "code7" as a close match to "code7" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i'm very sorry to hear that. there may be larger issues at play, and i am therefore recommending you reach out to the customer service line to reach a resolution."
+INFO:chatterbot.chatterbot:BestMatch selected "i'm very sorry to hear that. there may be larger issues at play, and i am therefore recommending you reach out to the customer service line to reach a resolution." as a response with a confidence of 1.0
+INFO:werkzeug:127.0.0.1 - - [05/May/2021 14:49:24] "[37mGET /get?msg=did%20not%20work HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [05/May/2021 16:09:19] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/May/2021 16:09:19] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: accutor 3 0.94
+INFO:chatterbot.chatterbot:Using "accutor 3" as a close match to "accuto 3" with a confidence of 0.94
+INFO:chatterbot.chatterbot:Selecting response from 8 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 8 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i have information on this device. what seems to be the issue?"
+INFO:chatterbot.chatterbot:BestMatch selected "i have information on this device. what seems to be the issue?" as a response with a confidence of 0.94
+INFO:werkzeug:127.0.0.1 - - [05/May/2021 16:09:25] "[37mGET /get?msg=accuto%203 HTTP/1.1[0m" 200 -
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: buttons not working 0.7
+INFO:chatterbot.chatterbot:Similar text found: display not working 0.76
+INFO:chatterbot.chatterbot:Using "display not working" as a close match to "module not working" with a confidence of 0.76
+INFO:chatterbot.chatterbot:Selecting response from 6 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 6 options.
+INFO:chatterbot.chatterbot:Response selected. Using "i may be able to assist! please see possible solution below<br>cause:cable defective<br>solution:check that the cable between the keypad board and main board is correctly connected.please give this a try, and respond with 'worked' or 'did not work' if this helped, and we'll proceed from there!"
+INFO:chatterbot.chatterbot:BestMatch selected "i may be able to assist! please see possible solution below<br>cause:cable defective<br>solution:check that the cable between the keypad board and main board is correctly connected.please give this a try, and respond with 'worked' or 'did not work' if this helped, and we'll proceed from there!" as a response with a confidence of 0.76
+INFO:werkzeug:127.0.0.1 - - [05/May/2021 16:09:42] "[37mGET /get?msg=module%20not%20working HTTP/1.1[0m" 200 -
+ERROR:sqlalchemy.pool.NullPool:Exception during reset or similar
+Traceback (most recent call last):
+  File "/Users/hamzahabdullahi/Desktop/Python/ChatBot/lib/python3.8/site-packages/sqlalchemy/pool.py", line 751, in _finalize_fairy
+    fairy._reset(pool)
+  File "/Users/hamzahabdullahi/Desktop/Python/ChatBot/lib/python3.8/site-packages/sqlalchemy/pool.py", line 938, in _reset
+    pool._dialect.do_rollback(self)
+  File "/Users/hamzahabdullahi/Desktop/Python/ChatBot/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 486, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 123145437749248 and this is thread id 4536909248.
+ERROR:sqlalchemy.pool.NullPool:Exception closing connection <sqlite3.Connection object at 0x110faed50>
+Traceback (most recent call last):
+  File "/Users/hamzahabdullahi/Desktop/Python/ChatBot/lib/python3.8/site-packages/sqlalchemy/pool.py", line 751, in _finalize_fairy
+    fairy._reset(pool)
+  File "/Users/hamzahabdullahi/Desktop/Python/ChatBot/lib/python3.8/site-packages/sqlalchemy/pool.py", line 938, in _reset
+    pool._dialect.do_rollback(self)
+  File "/Users/hamzahabdullahi/Desktop/Python/ChatBot/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 486, in do_rollback
+    dbapi_connection.rollback()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 123145437749248 and this is thread id 4536909248.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hamzahabdullahi/Desktop/Python/ChatBot/lib/python3.8/site-packages/sqlalchemy/pool.py", line 342, in _close_connection
+    self._dialect.do_close(connection)
+  File "/Users/hamzahabdullahi/Desktop/Python/ChatBot/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 492, in do_close
+    dbapi_connection.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 123145437749248 and this is thread id 4536909248.

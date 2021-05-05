@@ -12,6 +12,10 @@ solution_dict = {
     "I'm sorry to hear that. Please see possible solution below<br>Cause:Power management board may be defective<br>Solution:Replace the power management board.<br>Please give this a try, and respond with 'worked' or 'did not work' if this helped, and we'll proceed from there!":"code6",
 
     "I'm sorry to hear that. Please see possible solution below<br>Cause:The main board failed<br> Solution:Replace the main board.<br>Please give this a try, and respond with 'worked' or 'did not work' if this helped, and we'll proceed from there!":"code7",
+
+    "I may be able to assist! Please see possible solution below<br>Cause:Cable defective<br>Solution:Check that the cable between the keypad board and main board is correctly connected.Please give this a try, and respond with 'worked' or 'did not work' if this helped, and we'll proceed from there!":"code8",
+
+    "I'm sorry to hear that. Please see possible solution below<br>Cause:Keypad board failure<br>Solution:Replace the keypad board.":"code7"
     
     }
 
