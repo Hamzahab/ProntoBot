@@ -57,7 +57,7 @@ def get_bot_response():
     # getting input from front end
     userStatement = request.args.get('msg')
 
-    if userStatement == 'did not work':
+    if userStatement.lower() == 'did not work':
         #if last response provided exists in solution path, get its next solution
         if  session['last_response'] in solution_dict:
             bot_output = bot.generate_response(Statement(text = solution_dict.get(session['last_response'])))
