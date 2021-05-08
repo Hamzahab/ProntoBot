@@ -47,6 +47,12 @@ def setup():
 
 @app.route("/")
 def run():
+    # session['last_response'] = ''
+    # return render_template("index.html")
+    return render_template("device_selection.html")
+
+@app.route("/reroute")
+def main_page():
     session['last_response'] = ''
     return render_template("index.html")
 

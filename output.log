@@ -7010,3 +7010,91 @@ Traceback (most recent call last):
   File "/Users/hamzahabdullahi/Desktop/Python/ChatBot/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 492, in do_close
     dbapi_connection.close()
 sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 123145437749248 and this is thread id 4536909248.
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:23:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:23:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:23:19] "[33mGET /index.html HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:31:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:31:11] "[33mGET /index.html HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:32:46] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:32:47] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:35:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:35:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:35:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:35:07] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:35:07] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:35:07] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:35:07] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:35:07] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:35:08] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:36:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:36:05] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:36:05] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:36:05] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:36:05] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:36:05] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:36:05] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug: * Detected change in '/Users/hamzahabdullahi/Desktop/Python/ChatBot/Code/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 272-487-388
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:47:03] "[33mGET /index.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:47:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:47:07] "[37mGET /reroute HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:47:07] "[37mGET /static/styles/style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:47:08] "[37mGET /reroute HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:50:02] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2021 20:50:16] "[37mGET / HTTP/1.1[0m" 200 -
