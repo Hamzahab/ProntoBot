@@ -7,7 +7,7 @@
 ### 1 - clone repo
 ### 2 - install chatterbot module in virtualenv
 ### 3 - if mongodb installed, run main.py module. LocalHost will be used as front-end for the time being.
-    if not, modify main.py file by commenting 'storage_adapter='chatterbot.storage.MongoDatabaseAdapter',
-    this will ensure that the database will be saved on sqlite in your local machine (if on mac). 
+    if not, modify main.py file by commenting out 'storage_adapter='chatterbot.storage.MongoDatabaseAdapter',
+    this will ensure that the database will be saved on sqlite in your local machine. 
 ### 4 - Enter http://localhost:5002/ in web browser
 ### 5 - chat away
